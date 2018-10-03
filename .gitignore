@@ -1,0 +1,6 @@
+venv/
+src/
+.idea/
+resources/
+.iml
+config.py
