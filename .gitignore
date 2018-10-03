@@ -4,3 +4,4 @@ src/
 resources/
 .iml
 config.py
+__pycash__/
