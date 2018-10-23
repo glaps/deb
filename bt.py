@@ -7,7 +7,7 @@ class Bt24:
 
     def send(self):
         try:
-            send = requests.post(self.accses_toking, json=self.dicthon)
+            requests.post(self.accses_toking, json=self.dicthon)
         except requests.ConnectionError as error:
             time.sleep(120)
             self.send()
